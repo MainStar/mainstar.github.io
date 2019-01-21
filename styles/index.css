@@ -5,6 +5,7 @@
 .main-container{
 	width: 100%;
 	margin: 0 auto;
+	font-family: "Arial",Sans-serif;
 }
 .head{
 	width: 100%;
@@ -39,9 +40,34 @@
 .img-hover{
 	width: 100%;
 	height: 755px;
-	background: black;
 	opacity: 0.8;
+	background: black;
 }
+.container-01-static-content{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	background: black;
+}
+.block-button{
+	width: 30%;
+	height: 70px;
+	opacity: 0.999999;
+	font-size: 20px;
+	margin: 0 auto;
+	border-radius: 7px 7px;
+	background: green;
+}
+.block-button > a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: white;
+	padding: 20px;
+	padding-left: 35px;
+	text-decoration: none;
+}
+
 
 /* Блок 2 */
 .container-02{
@@ -192,6 +218,52 @@
 	border-radius: 7px 7px;
 	color: white;
 	background: green;
+}
+
+/* Блок 4 */
+.container-04{
+	width: 100%;
+	height: 400px;
+	background: white;
+}
+
+/* Блок 5 */
+.container-05{
+	width: 100%;
+	height: 400px;
+	background: url("../images/business-analytics-bs-lg.jpg");
+}
+.container-05-hower{
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.7;
+}
+
+/* Блок 6 */
+.container-06{
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+	background: grey;
+}
+.container-06-content{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	/*background: white;*/
+}
+.container-06-topic{
+	width: 100%;
+	height: 70px;
+	padding-top: 20px;
+	/*background: red;*/
+}
+.container-06-topic > h4{
+	width: 20%;
+	height: 60%;
+	margin: 0 auto;
+	font-size: 40px;
 }
 
 input[type=text]:focus{
