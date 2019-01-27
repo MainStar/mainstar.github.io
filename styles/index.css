@@ -80,33 +80,101 @@
 .container-03{
 	width: 100%;
 	height: 600px;
+}
+.container-03-hover{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+	background: black;
+}
+.calc-container{
+	width: 95%;
+	height: 30%;
+	padding-top: 40px;
+	background: white;
+	margin: 0 auto;
+}
+.calc-container-value{
+	width: 90%;
+	height: 50%;
+	margin: 0 auto;
+	background: red;
+}
+.calc-value{
+	width: 31%;
+	height: 80%;
+	margin-left: 1.2%;
+	margin-top: 1.2%;
+	float: left;
+	display: block;
+	background: white;
+}
+.value{
+	width: 80%;
+	height: 90%;
+	margin-top: 3%;
+	margin-left: 4%;
+}
+.value > input{
+	margin-top: 3%;
+	width: 100%;
+	height: 45%;
+	border-radius: 7px 7px;
+}
+.culc-button{
+	width: 30%;
+	height: 22%;
+	text-align: center;
+	margin: 3% auto;
+	background: red;
+}
+.culc-button > a{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding-top: 3%;
+	display: block;
+}
+.result-box{
+	width: 100%;
+	height: 64%;
+	background: blue;
+}
+
+
+/* Блок 4 */
+.container-04{
+	width: 100%;
+	height: 600px;
 	background: url("../images/yolanda-sun-40675.jpg");
 	background-position: center;
 	background-size: cover;
 }
-.img-hover-03{
+.img-hover-04{
 	width: 100%;
 	height: 600px;
 	background: black;
 	opacity: 0.8;
 }
-.container-content-03{
+.container-content-04{
 	width: 900px;
 	height: 100%;
 	margin: 0 auto;
 }
-.container-content-static-03{
+.container-content-static-04{
 	width: 50%;
 	height: 100%;
 	float: left;
 	/*background: white;*/
 }
-.container-form-static-03{
+.container-form-static-04{
 	width: 50%;
 	height: 100%;
 	float: right;
 }
-.container-form-static-03 > form{
+.container-form-static-04 > form{
 	width: 90%;
 	height: 90%;
 	margin: 6% auto;
@@ -188,6 +256,7 @@
 	margin-top: 2%;
 	margin-bottom: 10%;
 	border-radius: 7px 7px;
+	background: white;
 	background: black;
 	opacity: 0.8;
 }
@@ -220,46 +289,46 @@
 	background: green;
 }
 
-/* Блок 4 */
-.container-04{
+/* Блок 5 */
+.container-05{
 	width: 100%;
 	height: 400px;
 	background: white;
 }
 
-/* Блок 5 */
-.container-05{
+/* Блок 6 */
+.container-06{
 	width: 100%;
 	height: 400px;
 	background: url("../images/business-analytics-bs-lg.jpg");
 }
-.container-05-hower{
+.container-06-hower{
 	width: 100%;
 	height: 100%;
 	background: black;
 	opacity: 0.7;
 }
 
-/* Блок 6 */
-.container-06{
+/* Блок 7 */
+.container-07{
 	width: 100%;
 	height: 700px;
 	margin: 0 auto;
 	background: grey;
 }
-.container-06-content{
+.container-07-content{
 	width: 900px;
 	height: 100%;
 	margin: 0 auto;
 	/*background: white;*/
 }
-.container-06-topic{
+.container-07-topic{
 	width: 100%;
 	height: 70px;
 	padding-top: 20px;
 	/*background: red;*/
 }
-.container-06-topic > h4{
+.container-07-topic > h4{
 	width: 20%;
 	height: 60%;
 	margin: 0 auto;
