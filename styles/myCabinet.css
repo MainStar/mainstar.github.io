@@ -106,7 +106,7 @@
 	margin-left: 2.5%;
 	margin-top: 2.1%;
 	border-radius: 7px;
-	background: red;
+	background: black;
 }
 .content-01-value{
 	width: 62.5%;
@@ -147,7 +147,8 @@
 	float: left;
 	margin-left: 10%;
 	border-radius: 7px 7px;
-	background: #129f12;
+	box-shadow: 2px 2px 8px #888888;
+	background: linear-gradient(#129f12,#14b814);
 }
 .button-invest > a{
 	color: white;
@@ -164,7 +165,8 @@
 	float: left;
 	margin-left: 10%;
 	border-radius: 7px 7px;
-	background: #e6b800;
+	box-shadow: 2px 2px 8px #888888;
+	background: linear-gradient(#e6b800,#ffcc00);
 }
 .button-withdraw > a{
 	color: white;
@@ -174,4 +176,28 @@
 	padding-top: 6%;
 	padding-left: 37%;
 	text-decoration: none;
+}
+
+/* Content 03 */
+.content-03{
+	width: 100%;
+	height: 55%;
+	padding-top: 1px;
+	/*background: black;*/
+}
+.statistic-blocks{
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+	margin-top: 2%;
+	/*background: white;*/
+}
+.statistic-block{
+	width: 30%;
+	height: 90%;
+	margin-left: 2%;
+	margin-top: 2%;
+	/*background: red;*/
+	box-shadow: 2px 2px 8px #888888;
+	display: inline-block;
 }
