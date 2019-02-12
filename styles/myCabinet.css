@@ -33,7 +33,7 @@
 /* Main container */
 .main-container{
 	width: 100%;
-	height: 700px;
+	height: 1200px;
 	background: #000066;
 }
 /* ************** */
@@ -78,7 +78,7 @@
 }
 .content-01{
 	width: 99.8%;
-	height: 20%;
+	height: 11%;
 	padding: 1px;
 	margin-top: 20px;
 /*	background: rgb(88, 8, 115, 0.9);*/
@@ -132,7 +132,7 @@
 /* Content block 2 */
 .content-02{
 	width: 99.8%;
-	height: 7%;
+	height: 3.7%;
 	padding-top: 3.5%;
 	padding-bottom: 2%;
 }
@@ -181,7 +181,7 @@
 /* Content 03 */
 .content-03{
 	width: 100%;
-	height: 55%;
+	height: 31%;
 	padding-top: 1px;
 }
 .statistic-blocks{
@@ -198,6 +198,7 @@
 	padding-top: 1px;
 	box-shadow: 2px 2px 8px #888888;
 	display: inline-block;
+	background: white;
 }
 .statistic-block-header{
 	width: 95%;
@@ -229,17 +230,65 @@
 	height: 22%;
 	padding: 1px;
 	margin: 1% auto;
-	background: black;
 }
 .block-value{
 	width: 90%;
 	height: 90%;
+	padding-top: 1px;
 	margin: 1.5% auto;
-	background: white;
 }
 .block-value-summary{
 	width: 50%;
 	height: 90%;
-	text-align: center;
+	float: left;
+	display: inline-block;
 	font-size: 14px;
+}
+.block-value-summary > a{
+	font-size: 16px;
+}
+.block-value-summary > a > span{
+	font-size: 13px;
+	color: grey;
+}
+.block-value-static{
+	width: 50%;
+	height: 90%;
+	float: left;
+	background: black;
+}
+
+/* content 04 */
+.content-04{
+	width: 100%;
+	height: 15%;
+	padding-top: 1px;
+}
+.referal-block-static{
+	width: 90%;
+	height: 90%;
+	padding-top: 1px;
+	margin: 1% auto;
+}
+.referal-block{
+	width: 96%;
+	height: 90%;
+	margin: 1% auto;
+	box-shadow: 2px 2px 8px #888888;
+	background: white;
+}
+.referal-block-header{
+	width: 100%;
+	height: 35%;
+}
+.referal-block-header > a{
+	color: black;
+	font-size: 21px;
+	float: left;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+.referal-block-link{
+	width: 100%;
+	height: 63.5%;
 }
