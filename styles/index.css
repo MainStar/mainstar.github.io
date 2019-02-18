@@ -142,6 +142,34 @@
 	height: 64%;
 	background: blue;
 }
+.result-box-static{
+	width: 90%;
+	height: 80%;
+	padding-top: 1px;
+	margin: 0 auto;
+	background-color: black;
+}
+.result-box-main-statistic{
+	width: 90%;
+	height: 90%;
+	margin: 1.5% auto;
+	background-color: white;
+}
+.statistic-block-header{
+	width: 100%;
+	height: 15%;
+	padding-top: 1px;
+	text-align: center;
+	background-color: red;
+}
+.statistic-block-header > h4{
+	margin-top: 1.5%;
+	font-size: 17px;
+}
+.statistic-block{
+	width: 100%;
+	height: 27%;
+}
 
 
 /* Блок 4 */
