@@ -60,7 +60,7 @@
 
 /* Left side menu */
 .left-side-menu{
-	width: 23%;
+	width: 13.5%;
 	height: 100%;
 	float: left;
 	position: fixed;
@@ -91,7 +91,7 @@
 
 /* Content block */
 .content{
-	width: 77%;
+	width: 86.5%;
 	height: 100%;
 	float: right;
 	background: rgb(242, 242, 230);
