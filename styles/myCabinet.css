@@ -124,7 +124,7 @@
 	height: 90%;
 	float: left;
 	margin-left: 2.5%;
-	margin-top: 2.1%;
+	margin-top: 1.1%;
 	border-radius: 7px;
 	background: black;
 }
@@ -175,7 +175,7 @@
 	width: 100%;
 	height: 100%;
 	display: block;
-	padding-top: 6%;
+	padding-top: 3%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -193,7 +193,7 @@
 	width: 100%;
 	height: 100%;
 	display: block;
-	padding-top: 6%;
+	padding-top: 3%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -255,7 +255,7 @@
 	width: 90%;
 	height: 90%;
 	padding-top: 1px;
-	margin: 1.5% auto;
+	margin: 0 auto;
 }
 .block-value-summary{
 	width: 50%;
@@ -363,7 +363,7 @@
 .content-05-ui-value{
 	width: 100%;
 	height: 80%;
-	margin-top: 5%;
+	margin-top: -2%;
 }
 .content-05-ui-value > a{
 	font-size: 13px;
