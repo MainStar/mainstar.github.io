@@ -8,7 +8,7 @@
 .header{
 	width: 100%;
 	height: 55px;
-	background: #000080;
+	background: linear-gradient(to right, #0052cc, #000080);
 }
 .header-left{
 	width: 23%;
